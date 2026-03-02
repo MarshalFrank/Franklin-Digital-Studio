@@ -40,8 +40,8 @@ function Footer() {
           <div className="col-md-3 mb-4">
             <h6 className="fw-bold">Contact</h6>
             <p className="footer-text">Hatfield, United Kingdom</p>
-            <p className="footer-text">hello@franklindigital.com</p>
-            <p className="footer-text">+44 0000 000000</p>
+            <p className="footer-text">dikefranklin7197@gmail.com</p>
+            <p className="footer-text">+44 7344 061372</p>
           </div>
 
         </div>
