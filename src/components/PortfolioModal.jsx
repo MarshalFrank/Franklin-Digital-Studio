@@ -8,7 +8,7 @@ function PortfolioModal({ project, onClose }) {
       onClick={onClose}
     >
       <div
-        className="modal-dialog modal-lg modal-dialog-centered"
+        className="modal-dialog modal-md modal-dialog-centered"
         onClick={(e) => e.stopPropagation()}
       >
         <div className="modal-content">
@@ -27,6 +27,7 @@ function PortfolioModal({ project, onClose }) {
               src={project.image}
               alt={project.title}
               className="img-fluid mb-3"
+              style={{ maxHeight: "350px", objectFit: "cover", width: "100%" }}
             />
             <p>{project.description}</p>
             <p><strong>Tech Stack:</strong> {project.tech}</p>
